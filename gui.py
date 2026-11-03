@@ -16,7 +16,7 @@ API_URL = "http://127.0.0.1:8000/analyze"
 class CommentClassifierApp:
     def __init__(self, root: tk.Tk):
         self.root = root
-        self.root.title("Comment Classifier (Qwen3.5-9B & DeepSeek)")
+        self.root.title("MOJ — Comment Classifier (Qwen3.5-9B & DeepSeek)")
         self.root.geometry("880x700")
         self.root.minsize(760, 600)
         self.root.configure(bg="#0f172a")
@@ -47,7 +47,7 @@ class CommentClassifierApp:
         
         left_h = ttk.Frame(top_bar)
         left_h.pack(side="left")
-        ttk.Label(left_h, text="⚡ Comment Classifier (Qwen3.5-9B)", style="Header.TLabel").pack(anchor="w")
+        ttk.Label(left_h, text="⚡ MOJ · Comment Classifier (Qwen3.5-9B)", style="Header.TLabel").pack(anchor="w")
         ttk.Label(left_h, text="Calibrated One-Token Readout · Generalized for any campaign or topic", style="Sub.TLabel").pack(anchor="w")
 
         # Right model selection

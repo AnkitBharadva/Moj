@@ -1,6 +1,6 @@
-# Contributing to Social Media Comment Judge
+# Contributing to MOJ
 
-Thank you for your interest in contributing to **Social Media Comment Judge**! This guide outlines how to contribute code, report bugs, and propose enhancements.
+Thank you for your interest in contributing to **MOJ** (Social Media Comment Judge)! This guide outlines how to contribute code, report bugs, and propose enhancements.
 
 ---
 
@@ -8,8 +8,8 @@ Thank you for your interest in contributing to **Social Media Comment Judge**! T
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/social-media-comment-judge.git
-   cd social-media-comment-judge
+   git clone https://github.com/AnkitBharadva/moj.git
+   cd moj
    ```
 
 2. **Create a virtual environment:**

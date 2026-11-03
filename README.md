@@ -1,8 +1,16 @@
 <div align="center">
 
-# ⚡ Social Media Comment Judge
+<pre>
+███╗   ███╗ ██████╗      ██╗
+████╗ ████║██╔═══██╗     ██║
+██╔████╔██║██║   ██║     ██║
+██║╚██╔╝██║██║   ██║██   ██║
+██║ ╚═╝ ██║╚██████╔╝╚█████╔╝
+╚═╝     ╚═╝ ╚═════╝  ╚════╝ 
+</pre>
 
-**High-Throughput, Calibrated Probability Engine for Social Media NLP**  
+# MOJ
+**High-Throughput, Calibrated Probability Engine for Social Media Intelligence**  
 *Local LLM Inference · One-Token Logprob Readout · Cyclic Debiasing · Post-Context Prompt Caching*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -25,7 +33,7 @@
 
 ## 📌 Overview
 
-**Social Media Comment Judge** is a production-grade inference engine designed to classify multilingual social media comments (English, Hindi, Hinglish, emojis, political memes, and sarcasm) into calibrated sentiment, content moderation, stance, and custom user-defined tasks.
+**MOJ** is a production-grade inference engine designed to classify multilingual social media comments (English, Hindi, Hinglish, emojis, political memes, and sarcasm) into calibrated sentiment, content moderation, stance, and custom user-defined tasks.
 
 Traditional LLM classification pipelines generate full natural-language strings (e.g. *"The sentiment is positive because..."*), which suffer from high latency ($1.5\text{s} - 4\text{s}$ per comment), token hallucinations, and uncalibrated confidence scores. 
 
@@ -128,8 +136,8 @@ Measured on a consumer laptop GPU (**NVIDIA GeForce RTX 5050 Laptop GPU, 8 GB VR
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-username/social-media-comment-judge.git
-cd social-media-comment-judge
+git clone https://github.com/AnkitBharadva/moj.git
+cd moj
 
 # Create virtual environment
 python -m venv .venv

@@ -74,7 +74,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="High-Accuracy Comment Classifier API",
+    title="MOJ — Social Media Comment Judge API",
     description="24/7 Calibrated sentiment, hate speech, stance, and custom task classifier powered by Qwen3.5-9B",
     version="2.1.0",
     lifespan=lifespan,

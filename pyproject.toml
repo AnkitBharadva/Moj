@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "social-media-comment-judge"
+name = "moj"
 version = "2.1.0"
-description = "Calibrated, probability-based social media comment analysis pipeline powered by Qwen3.5-9B and Ollama"
+description = "MOJ: Calibrated, probability-based social media comment analysis engine powered by Qwen3.5-9B and Ollama"
 readme = "README.md"
 authors = [
-    { name = "Antigravity Contributor" }
+    { name = "Ankit Bharadva" }
 ]
 license = { text = "MIT" }
 requires-python = ">=3.10"
