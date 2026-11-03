@@ -1,0 +1,85 @@
+{
+  "sentiment": {
+    "question": "What is the true underlying sentiment of this comment?",
+    "options": [
+      "positive (sincere praise, gratitude, enthusiasm, encouragement, approval)",
+      "neutral (matter-of-fact statements, news, questions, objective reporting)",
+      "negative (criticism, anger, sadness, sarcasm, cynicism, mockery, frustration)"
+    ],
+    "option_keys": ["positive", "neutral", "negative"],
+    "system_prefix": "You are an expert social media analyst specializing in Indian social media, Hinglish, sarcasm, and political discourse. Analyze the true underlying intent—sarcastic praise (e.g. clapping for failure or economic damage) is NEGATIVE.",
+    "examples": [
+      "\"Congratulations to the entire team on this great achievement! 🙌\" -> A",
+      "\"Delhi police driver exam record code is 5555.\" -> B",
+      "\"Great job destroying the economy, truly masterclass 👏\" -> C",
+      "\"Sab jumla hai.. kuch nhi hoga yahan\" -> C"
+    ]
+  },
+  "sentiment_fine": {
+    "question": "What is the detailed emotional tone of this comment?",
+    "options": [
+      "strongly positive (unconditional celebration, deep enthusiasm, passionate praise)",
+      "positive (general approval, constructive agreement, polite support)",
+      "neutral (factual comment, inquiry, balanced or unemotional observation)",
+      "negative (direct criticism, frustration, disappointment, sorrow)",
+      "sarcastic / cynical (irony, mocking clapping, cynical despair, caustic satire)"
+    ],
+    "option_keys": ["strongly positive", "positive", "neutral", "negative", "sarcastic / cynical"],
+    "system_prefix": "You are a nuanced emotion analyst for multilingual social media. Accurately detect sarcasm, cynicism, and ironic criticism.",
+    "examples": [
+      "\"Huge salute to CJP team, incredible work! 🔥❤️\" -> A",
+      "\"I think this is a good initiative.\" -> B",
+      "\"What time does the press conference start?\" -> C",
+      "\"The bridge collapse has destroyed innocent lives, very sad.\" -> D",
+      "\"Wah Modi ji wah, what an incredible achievement 👏\" -> E"
+    ]
+  },
+  "hate": {
+    "question": "Does this comment contain hate speech or vulgar abuse?",
+    "options": [
+      "hateful (targeted discrimination, dehumanization, or threats against an entire protected community/identity group like religion, caste, gender, ethnicity)",
+      "offensive but not hateful (vulgar profanity, Hindi abusive slurs like bhadwe/chutiya/lauda, or personal insults directed at individuals/rivals without attacking a protected group)",
+      "neither (acceptable political dissent, peaceful criticism, or neutral speech)"
+    ],
+    "option_keys": ["hateful", "offensive but not hateful", "neither"],
+    "system_prefix": "You are an objective content moderation classifier specializing in Indian discourse and Hinglish. Crucial distinction: Personal vulgar insults (e.g. bhadwe, chutiya) aimed at an individual are OFFENSIVE, whereas HATEFUL speech is strictly against demographic identity groups.",
+    "examples": [
+      "\"All members of [religious/caste group] are traitors and must be driven out\" -> A",
+      "\"ye bta bhadwe apna kaam kar chupchap\" -> B",
+      "\"I strongly criticize this policy; the government has failed the students\" -> C"
+    ]
+  },
+  "support": {
+    "question": "What stance does this comment take regarding {target}?",
+    "options": [
+      "supports (agrees with, praises, defends, or promotes {target})",
+      "opposes (demands resignation, mocks, criticizes, or protests against {target})",
+      "neither (neutral, off-topic, or unclear)"
+    ],
+    "option_keys": ["supports", "opposes", "neither"],
+    "default_target": "Cockroach Janta Party",
+    "system_prefix": "You are an expert stance detection analyst. Understand Indian political meme formats: asking for someone to resign ('resign button') indicates OPPOSITION; a 'respect button' indicates SUPPORT.",
+    "examples": [
+      "\"C J P respect button 💖 Full support!\" -> A (if target is CJP)",
+      "\"Narendra Modi resign button 👇\" -> B (if target is Narendra Modi)",
+      "\"When will the exam notification be published?\" -> C"
+    ]
+  },
+  "intent": {
+    "question": "What is the primary intent of this comment?",
+    "options": [
+      "praise or endorsement (cheering, thanking, showing solidarity)",
+      "criticism or protest (demanding accountability, expressing grievance)",
+      "factual inquiry or reporting (asking questions, sharing evidence/news)",
+      "spam or meme engagement (tagging friends, typing buttons/emojis only)"
+    ],
+    "option_keys": ["praise or endorsement", "criticism or protest", "factual inquiry or reporting", "spam or meme engagement"],
+    "system_prefix": "You are a social media intent classifier. Answer with one letter only.",
+    "examples": [
+      "\"We are with you until the end!\" -> A",
+      "\"Why has no action been taken on this scam yet?\" -> B",
+      "\"Case details: FIR registered on 15th August.\" -> C",
+      "\"😂👏🔥 @friend1 @friend2\" -> D"
+    ]
+  }
+}

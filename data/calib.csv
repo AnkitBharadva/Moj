@@ -1,0 +1,51 @@
+comment_id,post_id,text,posted_at,like_count,is_reply,sentiment,hate,support,min_confidence,needs_human_review
+17913084822460939,3983142516299682402,@pakurcjp resignation chahiye sir hmee education minister or cm ka .......,2026-09-11T07:03:33Z,0,True,negative,neither,supports,0.3857,True
+18073938143454777,3985792557274079955,@jitt_60 same bot comment 😂,2026-09-15T02:45:39Z,0,True,positive,neither,neither,0.5302,True
+17982551436098810,3986788967667183513,https://www.instagram.com/reel/DdWGg-DpT_L/?stkn=MWN5MjlmaHNuMm1rZg==https://www.instagram.com/reel/DdQJ2xaJWSs/?stkn=bTdyOTM1a2g5a3Fohttps://www.instagram.com/reel/DdWMY7yJRhz/?stkn=MWh2ZmpzZmthcWpoZQ,2026-09-16T15:40:18Z,0,False,neutral,neither,neither,0.3523,True
+18164914903479650,3983125829127162036,I am not a bjp fan. But I hope the team went to the poor localities of these states,2026-09-11T04:44:18Z,0,False,positive,neither,supports,0.4192,True
+17875539858631367,3980638761431494518,And they say we have 7.8 % GDP growth.,2026-09-08T13:11:33Z,0,False,positive,neither,supports,0.4738,True
+18059333849749489,3988732411689007184,Let's Go Youth Of INDIA 🇮🇳,2026-09-18T09:40:42Z,1,False,positive,neither,supports,0.4747,True
+17867690154647701,3981599403956588773,@kattar_hindu_shekhar_ 😂😂😂 dipke dipak gya ab😂😂,2026-09-08T15:55:20Z,1,True,positive,hateful,neither,0.3728,True
+18095895776538579,3988134520991008026,Cjp na asli chahra dikha diya ab safai da raha hai aj hi kayo jalaya abhijet sach bol raha thhaa fund pm care fund sa aaya b team bjp ki,2026-09-17T15:54:03Z,0,False,positive,hateful,supports,0.412,True
+18626978293009515,3982814730417748868,Do din baad ye bhi nikal kar le jayenge 😂,2026-09-10T03:51:15Z,0,False,positive,neither,supports,0.3641,True
+18083668889676015,3983040991451864176,Kejriwal ko acha to bolenge hi,2026-09-17T15:01:52Z,0,False,positive,hateful,supports,0.4141,True
+18024639263696727,3986859187925651776,Bhai kuchh nahin hone wala hai yah sab baten jhuthi hai to mano ya na mano❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️,2026-09-15T19:28:09Z,0,False,positive,neither,neither,0.4072,True
+18113367824028879,3980638761431494518,He always curse the public😢,2026-09-08T02:37:13Z,0,False,positive,neither,supports,0.4012,True
+18137330692627060,3985792557274079955,"We should’ve hosted the BRICS Summit in this school. If our kids can study in these pathetic conditions, why can’t our leaders hold their meetings here? Let them experience the “reality on the ground.”",2026-09-14T07:11:10Z,2,False,negative,hateful,supports,0.3718,True
+17906288358540152,3986563340435329193,Civic sense😂,2026-09-15T07:25:07Z,0,False,positive,neither,neither,0.3989,True
+18195743428381641,3981599403956588773,Yaar yah Jo log Udhar Hath Hila rahe hain. Chilla rahe hain inke pass itna time kahan hai jo yah sab kar rahe hain bhai kaun log hai yah andbakt he,2026-09-08T14:00:50Z,0,False,positive,hateful,supports,0.3772,True
+18127929202693128,3982814730417748868,👏🏽👏🏽👏🏽🙌🏽,2026-09-18T15:54:30Z,0,False,positive,neither,neither,0.527,True
+18127833139689935,3985176529561609737,Respect...M.P CM Abhishek Dipke,2026-09-13T17:35:59Z,0,False,positive,neither,neither,0.4106,True
+18174475321444358,3988134520991008026,Hamare school me bhi najar mariye ak bar please sir,2026-09-17T15:24:48Z,0,False,positive,neither,neither,0.4038,True
+18490748590100190,3983125829127162036,Sab Jagah Ki Aap Bat Karte Ho To Bahot Jor Dete Ho Par Yaha Aap ne Dabane Ki Kosis Ki Hai Same On u Yaar 🤡🤡🤡,2026-09-13T02:47:25Z,0,False,negative,hateful,supports,0.3555,True
+18173468209444461,3985816233333170692,Netao ke promises 🤧🤌🏻,2026-09-17T10:20:03Z,0,False,positive,neither,neither,0.4137,True
+18094320467109435,3985792557274079955,Well done 👏👏🙌,2026-09-14T05:54:13Z,1,False,positive,neither,supports,0.6001,True
+17966643555179118,3987336587833153383,Gujrat ki information dm me,2026-09-17T05:15:02Z,1,False,negative,neither,neither,0.352,True
+18067982018768901,3983956992259751211,Vote for bihar gov school 🏫>>>>>,2026-09-12T06:15:06Z,0,False,positive,neither,supports,0.4885,True
+18225222511333643,3985176529561609737,😮😮😮😮😮😮😮😮😮😢😢😢😢😢😢,2026-09-14T14:32:36Z,0,False,positive,neither,neither,0.4143,True
+18143755717604624,3983040991451864176,"Vikas karya karne ke liye achchhi neeyat honi chahiye. CJP ke sath BJP Shasit pradeshon mei durvyavhar kiya gaya kyonki sarkar apni galtion ko chhupana chahati hai, jabki AAP ki sarkar ne CJP ke sath pura sahyog kiya taaki aap janta ko iska fayda mil sake . Isse badi imandaari ki misal kya hogi . Wel done CJP & Punjab Sarkar 👍👍",2026-09-11T03:55:11Z,1,False,positive,hateful,supports,0.407,True
+18148845952539566,3985985357138204397,❤️❤️❤️❤️💔💔💔💔,2026-09-14T14:54:03Z,0,False,negative,neither,neither,0.5017,True
+18350871166219702,3985792557274079955,"Dimaagi Naxal....stop showing the truth to everyone!!! Hum ""7.8%"" mein khush hain...",2026-09-15T06:42:44Z,0,False,positive,hateful,supports,0.4253,True
+17896256535605784,3982814730417748868,Isse toh hygiene issue hogi,2026-09-10T17:59:09Z,0,False,positive,neither,supports,0.3854,True
+18095500214429231,3985176529561609737,Modi ji ye Pani peke dekhe 😢😢😢,2026-09-13T14:36:54Z,0,False,positive,neither,supports,0.4528,True
+18376506718236888,3985176529561609737,Keep working bhaiya 🥹👏,2026-09-13T11:13:30Z,1,False,positive,neither,supports,0.4452,True
+18197647024379063,3985792557274079955,Reservation mill Gaya ab karte raho jinga lala hu😂,2026-09-14T07:05:02Z,1,False,positive,hateful,supports,0.4264,True
+18075330140706331,3986859187925651776,Nothing will happen....aise he bewkuf banate rhenge ye,2026-09-15T17:40:32Z,0,False,negative,neither,neither,0.3855,True
+18108067612935794,3985176529561609737,Andolan ki coll do,2026-09-13T10:17:48Z,1,False,positive,hateful,supports,0.3844,True
+18140962291587610,3985816233333170692,कब???,2026-09-16T05:39:05Z,0,False,negative,neither,neither,0.3897,True
+17956470570248214,3987336587833153383,आदिवासी बहुत भोले होते है अगर आप प्यार दिखाएंगे तो वो अपना सब कुछ आपके पैरों में रख देंगे लेकिन सपना दिखा के धोखा मत देना आपके साथ हर आदिवासी खड़ा है जय जौहर 👏👏,2026-09-16T09:22:42Z,1,False,positive,hateful,supports,0.4619,True
+17991405540013275,3985792557274079955,You are great sir kithna khayal rakh rahe hai gareeb ka 😢😢😢😢😢,2026-09-14T15:27:14Z,0,False,positive,neither,supports,0.4584,True
+18492175981101132,3987336587833153383,Johar ✅🙏,2026-09-16T16:55:59Z,2,False,positive,neither,neither,0.4301,True
+17947871016298627,3987336587833153383,Aashram q nahi band karwata waha per to andh bhakt janam lete hai madrase se padd kar to  APJ Abdul kalam scientist bane the,2026-09-16T11:41:22Z,0,True,positive,hateful,supports,0.4121,True
+18109411825844900,3980172384379304135,Narendra jitna Paisa mullo ko bekar krne k liye use Kiya hai utne me to desh ki all school thik ho jaye,2026-09-06T12:22:21Z,0,False,positive,hateful,supports,0.4607,True
+18103559324338018,3985176529561609737,Remove करो वहां पर जो भी सरकार हैं 😢,2026-09-13T13:04:48Z,0,False,negative,hateful,supports,0.462,True
+18115601581777812,3986788967667183513,स्कूलो में पढ़ाने वाले शिक्षकों को घबराना नहीं चाहिए और उन्हें ही आगे आकर स्कूल का असली हाल बताना चाहिए । क्यूंकि वो रोज़ाना स्कूल आते-जाते हैं और अच्छे से वाकिफ होते हैं ।,2026-09-16T05:28:10Z,0,False,positive,neither,supports,0.445,True
+18136021789723048,3984583054924206273,Bhik mat mag chal Nepali saley✅,2026-09-12T18:01:04Z,0,False,negative,hateful,supports,0.4545,True
+18189698503392494,3985792557274079955,Jb netao ke bacche bahar desh me jakar padhenge to neta log desh me education aur school kyu sudharenge 😢,2026-09-14T05:56:28Z,2,False,positive,hateful,supports,0.4035,True
+18136510897540334,3986859187925651776,BJP RSS Ko nepal treatment ki jarurat hai 😡😡👍,2026-09-15T17:45:58Z,7,False,negative,hateful,supports,0.486,True
+18195558820390370,3988732411689007184,Sir bihar me kar wao bhai👏👏👏,2026-09-18T08:18:49Z,0,False,positive,neither,supports,0.3815,True
+18064642010779701,3981599403956588773,@ruhi.indian.18 thoda samghdar ho jaaiye,2026-09-08T12:24:15Z,4,True,negative,hateful,neither,0.3876,True
+17896928064669597,3985176529561609737,"Chor or uneducated sarkar Dash ko bech raha hai,or am janta isse jhel rahi hai,Sidhi baat no bakwas, bjp hatao Dash bachao.🇮🇳🫡",2026-09-14T09:22:04Z,0,False,negative,hateful,supports,0.3948,True
+18144995005577657,3987336587833153383,One nation one education lagu karo,2026-09-16T10:06:12Z,1,False,positive,neither,supports,0.3874,True
+18029373587896618,3980638761431494518,Double engine sarkaar! 👏👏👏👏,2026-09-08T05:38:11Z,0,False,positive,neither,supports,0.4238,True
+17947419774318664,3984583054924206273,CJP ka Funding raise karne ka naya tarika😂,2026-09-13T04:15:20Z,1,False,positive,neither,supports,0.4113,True

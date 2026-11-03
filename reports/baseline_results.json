@@ -1,0 +1,316 @@
+{
+  "sentiment": {
+    "test": {
+      "task": "sentiment",
+      "dataset": "test.csv",
+      "n_samples": 30,
+      "macro_f1": 1.0,
+      "per_class": {
+        "positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 17.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 12.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 30.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 30.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          12
+        ]
+      ],
+      "ece": 0.2306,
+      "latency_p50_ms": 231.5,
+      "latency_p95_ms": 277.9,
+      "latency_mean_ms": 315.3
+    },
+    "hard": {
+      "task": "sentiment",
+      "dataset": "hard.csv",
+      "n_samples": 20,
+      "macro_f1": 1.0,
+      "per_class": {
+        "positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 15.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          4
+        ]
+      ],
+      "ece": 0.1637,
+      "latency_p50_ms": 230.2,
+      "latency_p95_ms": 358.7,
+      "latency_mean_ms": 260.1
+    }
+  },
+  "hate": {
+    "test": {
+      "task": "hate",
+      "dataset": "test.csv",
+      "n_samples": 30,
+      "macro_f1": 1.0,
+      "per_class": {
+        "hateful": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 11.0
+        },
+        "neither": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 19.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 30.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 30.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          11,
+          0
+        ],
+        [
+          0,
+          19
+        ]
+      ],
+      "ece": 0.2568,
+      "latency_p50_ms": 224.8,
+      "latency_p95_ms": 268.0,
+      "latency_mean_ms": 231.4
+    },
+    "hard": {
+      "task": "hate",
+      "dataset": "hard.csv",
+      "n_samples": 20,
+      "macro_f1": 1.0,
+      "per_class": {
+        "hateful": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "neither": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 12.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "ece": 0.1591,
+      "latency_p50_ms": 219.7,
+      "latency_p95_ms": 263.1,
+      "latency_mean_ms": 229.6
+    }
+  },
+  "support": {
+    "test": {
+      "task": "support",
+      "dataset": "test.csv",
+      "n_samples": 30,
+      "macro_f1": 1.0,
+      "per_class": {
+        "supports": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 22.0
+        },
+        "neither": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 30.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 30.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          22,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "ece": 0.2925,
+      "latency_p50_ms": 222.5,
+      "latency_p95_ms": 267.4,
+      "latency_mean_ms": 226.7
+    },
+    "hard": {
+      "task": "support",
+      "dataset": "hard.csv",
+      "n_samples": 20,
+      "macro_f1": 1.0,
+      "per_class": {
+        "supports": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 12.0
+        },
+        "neither": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "ece": 0.1911,
+      "latency_p50_ms": 228.1,
+      "latency_p95_ms": 315.2,
+      "latency_mean_ms": 247.4
+    }
+  }
+}

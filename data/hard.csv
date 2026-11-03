@@ -1,0 +1,22 @@
+comment_id,post_id,text,posted_at,like_count,is_reply,sentiment,hate,support,min_confidence,needs_human_review
+18212975368357480,3982980970214879802,"हृदयविदारक
+😢💔😢",2026-09-11T12:12:45Z,0,False,negative,neither,neither,0.5411,True
+18127089439786642,3985176529561609737,मध्य प्रदेश की घटना पर जो पत्रकार उल्टे सवाल पूछे है उनके ऊपर केस दर्ज होना चाहिए और उनकी पत्रकारिता निरस्त होना चाहिए,2026-09-13T14:46:22Z,0,False,negative,hateful,supports,0.4238,True
+18624022531042322,3985176529561609737,Allah rahem kare....... firr bhi in sab logo ka dimaag dekho kaise pani ko saaf kar rahe hai😮😮😮😮😮,2026-09-15T08:50:08Z,0,False,positive,hateful,supports,0.4524,True
+18229316755322455,3985792557274079955,रिजर्वेशन हटाओ वाले दिखाई नहीं दे रहे हैं यार,2026-09-15T01:53:23Z,0,False,positive,hateful,supports,0.4385,True
+18132530962658551,3988732411689007184,"Cjp bas chote chote task le rhi,lgta hai kejriwal ka target achieve ho gya, bhut dukh hua jaan ke @ashutosh_ranka  @seven_shots_",2026-09-18T16:18:57Z,0,False,negative,hateful,supports,0.4515,True
+18076013882706218,3985176529561609737,7.8%  GDP 😂😂😂,2026-09-13T16:00:04Z,1,False,positive,neither,supports,0.4357,True
+18127916149690907,3980728225545969750,@nikita.offical33556677,2026-09-19T07:18:33Z,0,True,neutral,neither,neither,0.4697,True
+18175203259432268,3980172384379304135,But they all should be happy atleast Muslims are suffering 😂😂😂😂,2026-09-06T12:08:27Z,0,False,positive,hateful,supports,0.4378,True
+18123720191491832,3985792557274079955,भारत विश्वगुरु बनने बहुत करीब है 5 साल और दे दीजिए भारत पूर्णतः विश्वगुरु बन जाएगा जय श्री राम,2026-09-14T07:46:52Z,0,False,positive,hateful,supports,0.4087,True
+18122811875311051,3985176529561609737,"@moulibosu they can recruit themselves. Look at that nineteen year old who cleaned the river and got a job offered in the Netherlands. Look at Abhijeet. Look at me. How long are you gonna wait for a recruiter? Also, you don’t always need recruitment. You can volunteer too. That too is valuable.",2026-09-13T12:01:39Z,11,True,positive,neither,supports,0.428,True
+17952586626031403,3985985357138204397,Cjp ✅❤️,2026-09-14T16:27:05Z,0,False,positive,neither,supports,0.6683,False
+18097217426641739,3980172384379304135,Rekha gupta go back,2026-09-06T21:07:27Z,0,False,negative,hateful,supports,0.4563,True
+18119803399939730,3986788967667183513,Madrachod sarkar India,2026-09-15T19:58:23Z,0,False,positive,hateful,supports,0.4515,True
+18129249886676591,3983014883668512040,Dumka district ek baar aao bhaiya ji 👏,2026-09-10T15:40:24Z,3,False,positive,neither,neither,0.49,True
+18122575498891272,3980092106849985514,CJP RESPECT BUTTON ✅,2026-09-06T11:31:07Z,0,False,positive,neither,supports,0.5038,True
+18108067306963116,3986859187925651776,Yogi❤️❤️,2026-09-16T11:24:54Z,1,False,positive,neither,neither,0.5597,True
+18087505481476906,3981599403956588773,Feku😂😂😂,2026-09-08T15:38:42Z,0,False,positive,neither,neither,0.53,True
+18120656902714282,3985816233333170692,विश्व गुरु  भारत कि  सच्चाई,2026-09-15T12:37:10Z,1,False,positive,neither,neither,0.4574,True
+18230813008324732,3985176529561609737,Are inko to funds milta hai ye sb dikhane ka........😂,2026-09-13T14:14:07Z,0,False,positive,neither,neither,0.3911,True
+18433265680177610,3987336587833153383,@bhairavgaming73 😂😂,2026-09-16T09:57:33Z,0,True,positive,neither,neither,0.5729,True

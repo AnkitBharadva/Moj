@@ -1,0 +1,32 @@
+comment_id,post_id,text,posted_at,like_count,is_reply,sentiment,hate,support,min_confidence,needs_human_review
+17964410004188083,3985176529561609737,Location bhi bata dete to ham bhi  jakar dekh aate ki kaha ke log etana kharab condition me hai,2026-09-13T14:46:18Z,1,False,positive,neither,supports,0.4328,True
+18097678091157932,3981599403956588773,Sabse bada joker!!!,2026-09-08T12:04:51Z,0,False,positive,neither,supports,0.4039,True
+18010130804762584,3985792557274079955,Shame ful on government,2026-09-14T08:11:28Z,0,False,negative,neither,supports,0.459,True
+18141543643572160,3980638761431494518,BJP HATAO DESH BACHAO 😢💔😡,2026-09-07T16:14:29Z,1,False,negative,hateful,supports,0.4126,True
+18110689814016663,3987336587833153383,Kisi ne toh baat ki ham aadivashiyon ki. Thank you so much cjp and team.,2026-09-16T09:07:27Z,16,False,positive,neither,supports,0.4568,True
+17896530582657477,3980241460398023009,Bura huwa...kiss museebat se joojhker gaye honge 😢😢😢 Allah maaf kare aur itni dardnak maut se bachaye,2026-09-06T20:40:36Z,0,False,negative,neither,supports,0.3836,True
+18099405323148954,3986788967667183513,Jay bhim bhai sahi bol rahe ho aap,2026-09-15T18:15:04Z,0,False,positive,hateful,supports,0.3814,True
+18091977611406753,3982814730417748868,@abhijeetdipke  bhai ek up polytechnic Gonda me polytechnic college ka room dekho jisme padhte time bhi barish ka pani girta h college me,2026-09-10T02:55:09Z,0,False,negative,neither,neither,0.4396,True
+18103773719261863,3986788967667183513,Tum chutiye rajasthan Mp or up jaa rahe ho to Punjab aur Karnataka me kiyu nahi jaa rahe he yee batao bs 😂🤣😂,2026-09-17T13:42:02Z,0,False,positive,hateful,supports,0.4528,True
+18333897361256115,3988134520991008026,"@basant_bahar2742 kitana pada likha hai bhai..., ab to online classes bhi aa gai ab kyu nahi pad paa raha ,?",2026-09-17T14:43:45Z,1,True,positive,neither,neither,0.3923,True
+18096098546543940,3981599403956588773,🤡🤡,2026-09-08T14:40:30Z,0,False,positive,neither,neither,0.3923,True
+18104267225624881,3987336587833153383,जय जोहर जय आदिवासी 🏹🏹🏹🏹🙏🙏,2026-09-16T11:10:19Z,0,False,positive,neither,supports,0.4185,True
+18123256153661001,3980172384379304135,"Ye bhrast system ka failiar hai😢😢😢😢
+BJP hatao desh bachao BJP desh ke liye khatra hai",2026-09-06T11:54:15Z,1,False,negative,hateful,supports,0.4886,True
+17981465658083603,3983125829127162036,"Scripted bruh. Went just because bjp supporters asked. No Politician wants to show the short comings , if it s true then it's scripted",2026-09-11T01:15:50Z,0,False,negative,neither,supports,0.4074,True
+18126236389892747,3982814730417748868,🔥🙌👏👏👍👍👍,2026-09-10T10:38:14Z,0,False,positive,neither,supports,0.4599,True
+18184309633419030,3983125829127162036,keZri chor ka chutiya,2026-09-15T16:15:41Z,0,False,negative,hateful,supports,0.4,True
+18084885971294736,3983040991451864176,Please visit Jammu & Kashmir Govt Schools,2026-09-13T08:13:54Z,0,False,positive,neither,supports,0.423,True
+18142344283586292,3985176529561609737,Hum to yhi janate the hum log Azad Desh me rahte hai  but hamri dekhi ki aysi halat ye nhi janate hai .🥺abhi bhi desh gulami hi hai,2026-09-13T16:35:48Z,0,False,negative,hateful,supports,0.4427,True
+17983859217066208,3980638761431494518,💔💔😡😡😡no words to say that 💔,2026-09-07T16:47:06Z,0,False,negative,neither,neither,0.4215,True
+18174896320443017,3985176529561609737,Still now my India is struggling for surviving..,2026-09-13T11:43:47Z,1,False,negative,neither,supports,0.4466,True
+18112625828466078,3985792557274079955,Yaha desh ko sudharne ke liye jo kadam utha rahe h. andhbhakt log unko hi apna dushman Maan chuke h,2026-09-14T06:01:34Z,1,False,positive,hateful,supports,0.4974,True
+18151477975533856,3983956992259751211,Sir maine aapko email bheja hai regarding Two Letter Petition. Humble request to reply your decision on that email.,2026-09-12T18:17:21Z,1,False,neutral,neither,neither,0.415,True
+18125016220841723,3983040991451864176,"Vah AAP party ka Dalal tumne Punjab ke Schools of Eminence ko cover kiya, lekin UP ke top model yaani Atal Awasiya Vidyalaya ya Abhyuday Composite Schools ko conveniently chhod diya. Fair comparison ke liye dono states ke flagship institutions ko aamne-saamne rakhna zaroori tha.",2026-09-10T19:15:46Z,0,False,positive,neither,supports,0.3646,True
+18109516762846879,3981599403956588773,Dipke ki Mkc 🤡,2026-09-08T15:27:42Z,0,False,positive,hateful,neither,0.3918,True
+18075652142708475,3980172384379304135,Bjp ko vot doge yahi hoga😂😂😂,2026-09-06T11:39:10Z,0,False,positive,neither,supports,0.4157,True
+18123947677850419,3980638761431494518,Darfok Si f baate karta hai ghatiya insaan 😡😡😡😡,2026-09-08T09:28:02Z,0,False,negative,hateful,supports,0.4435,True
+18115891138992589,3988134520991008026,Next pm Rahul Gandhi ✅👍,2026-09-17T11:09:21Z,0,False,positive,neither,supports,0.4784,True
+18009997175759106,3980241460398023009,Andhe bhakton ko dikhai nahin dega 🥺,2026-09-06T14:51:43Z,0,False,positive,hateful,neither,0.4334,True
+17949336840050711,3985792557274079955,Mp ke tiktoli me to pura room hi gir gya aajj sarkari school ka haal,2026-09-14T15:28:47Z,0,False,positive,hateful,supports,0.4255,True
+18081642902702930,3982814730417748868,New ka to thik hai lekin paisa kitna gaya isey thik karne me ? 🤔 Aur kaam khatum paisa hazam aisa to nhi hoga na 🤔 @abhijeetdipke @cockroachjantaparty,2026-09-10T08:02:35Z,1,True,negative,neither,neither,0.3911,True

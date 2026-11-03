@@ -1,0 +1,17 @@
+{
+  "sentiment": {
+    "positive": 0.5986,
+    "neutral": 0.3972,
+    "negative": 0.4803
+  },
+  "hate": {
+    "hateful": 0.4645,
+    "offensive but not hateful": 0.45,
+    "neither": 0.509
+  },
+  "support": {
+    "supports": 0.6276,
+    "opposes": 0.45,
+    "neither": 0.5115
+  }
+}

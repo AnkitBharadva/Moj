@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.ruff_cache/
+.mypy_cache/
+
+# Large Datasets & Raw Scraped Media (PII Protection)
+cockroachjantaparty/
+data/all_comments.csv
+data/raw/
+*.tar.gz
+*.zip
+
+# Local Logs & Scratch Scripts
+*.log
+scratch/
+.system_generated/
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model weight binaries (GGUF should be pulled via Ollama)
+*.gguf
+*.bin
+*.safetensors
