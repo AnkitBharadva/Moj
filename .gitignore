@@ -1,47 +1,170 @@
-# Byte-compiled / optimized / DLL files
+# ==============================================================================
+# MOJ — Production .gitignore
+# Machine Learning · Local LLM Inference · FastAPI · Social Media Intelligence
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Python Bytecode & Cache
+# ------------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.pyd
+*.dll
 
-# Virtual Environments
+# ------------------------------------------------------------------------------
+# 2. Build & Packaging Artifacts
+# ------------------------------------------------------------------------------
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 3. Virtual Environments
+# ------------------------------------------------------------------------------
 .venv/
 venv/
 env/
 ENV/
 env.bak/
 venv.bak/
+.conda/
+conda-meta/
 
-# Testing & Coverage
+# ------------------------------------------------------------------------------
+# 4. Testing, Code Coverage & Profiling
+# ------------------------------------------------------------------------------
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
 .tox/
 .nox/
-.ruff_cache/
+
+# ------------------------------------------------------------------------------
+# 5. Type Checking & Linters
+# ------------------------------------------------------------------------------
 .mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
 
-# Large Datasets & Raw Scraped Media (PII Protection)
-cockroachjantaparty/
-data/all_comments.csv
-data/raw/
-*.tar.gz
-*.zip
+# ------------------------------------------------------------------------------
+# 6. Jupyter Notebooks & Data Exploration
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
 
-# Local Logs & Scratch Scripts
-*.log
-scratch/
-.system_generated/
-.idea/
-.vscode/
-*.swp
+# ------------------------------------------------------------------------------
+# 7. Environment Variables, Secrets & Credentials
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+credentials.json
+token.json
 
-# OS generated files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Model weight binaries (GGUF should be pulled via Ollama)
+# ------------------------------------------------------------------------------
+# 8. Model Weights & Binaries (Pull via Ollama or HuggingFace)
+# ------------------------------------------------------------------------------
 *.gguf
 *.bin
 *.safetensors
+*.pt
+*.pth
+*.onnx
+*.tflite
+models/
+checkpoints/
+
+# ------------------------------------------------------------------------------
+# 9. Large Datasets & Raw Scraped Media (PII Protection & GitHub Size Limits)
+# ------------------------------------------------------------------------------
+cockroachjantaparty/
+data/raw/
+data/all_comments.csv
+data/*.parquet
+data/*.h5
+data/*.feather
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Explicitly keep lightweight test & calibration benchmark splits
+!data/calib.csv
+!data/test.csv
+!data/hard.csv
+
+# ------------------------------------------------------------------------------
+# 10. Local Runtime Logs, Cache & Scratch Scripts
+# ------------------------------------------------------------------------------
+*.log
+logs/
+scratch/
+.system_generated/
+reports/*.pdf
+
+# ------------------------------------------------------------------------------
+# 11. IDEs & Editors
+# ------------------------------------------------------------------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# 12. Operating System Artifacts (Windows, macOS, Linux)
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Linux
+*~
+.directory
